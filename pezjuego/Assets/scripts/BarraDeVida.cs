@@ -15,11 +15,11 @@ public class BarraDeVida : MonoBehaviour
         barradevida.fillAmount = vidaactual/vidamaxima;
         if (Input.GetKeyDown(KeyCode.A))
         {
-            vidaactual = vidaactual-modvida;
+            vidaactual = vidaactual+modvida;
         }
         if (Input.GetKeyDown(KeyCode.L))
         {
-            vidaactual = vidaactual + modvida;
+            vidaactual = vidaactual - modvida;
         }
         if(vidaactual>=vidamaxima)
         {
