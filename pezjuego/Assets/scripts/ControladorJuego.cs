@@ -8,6 +8,13 @@ public class ControladorJuego : MonoBehaviour
 {
     [SerializeField] private float tiempoMaximo;
     [SerializeField] private Slider slider;
+    public GameObject Desactivar;
+    public GameObject Desactivar2;
+    public GameObject Desactivar3;
+    public GameObject Desactivar4;
+    public GameObject Desactivar5;
+    public GameObject Activar;
+    
 
     private float tiempoActual;
 
@@ -38,7 +45,14 @@ public class ControladorJuego : MonoBehaviour
         {
             Debug.Log("Derrota");
             CambiarTemporizador(false);
-            SceneManager.LoadScene(0);
+            
+            Desactivar.SetActive(false); // El objeto se deshabilita
+            Desactivar2.SetActive(false);
+            Desactivar3.SetActive(false);
+            Desactivar4.SetActive(false);
+            Desactivar5.SetActive(false);
+            Activar.SetActive(true); // El objeto se habilita
+            
         }
     }
 
