@@ -28,6 +28,7 @@ public class BarraDeVida : MonoBehaviour
         if (vidaactual <= 0)
         {
             vidaactual = 0;
+            Debug.Log("Derrota");
         }
     }
     
