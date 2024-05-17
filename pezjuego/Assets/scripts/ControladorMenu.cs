@@ -22,6 +22,11 @@ public class ControladorMenu : MonoBehaviour
     {
         SceneManager.LoadScene(3);
     }
+
+    public void Opciones()
+    {
+        SceneManager.LoadScene(4);
+    }
     public void Quit()
     {
         Application.Quit();
