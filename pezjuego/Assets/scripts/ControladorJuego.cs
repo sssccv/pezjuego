@@ -13,6 +13,7 @@ public class ControladorJuego : MonoBehaviour
     public GameObject Desactivar3;
     public GameObject Desactivar4;
     public GameObject Desactivar5;
+    public GameObject Desactivar6;
     public GameObject Activar;
     
 
@@ -43,7 +44,7 @@ public class ControladorJuego : MonoBehaviour
         }
         if (tiempoActual <= 0)
         {
-            Debug.Log("Derrota");
+            Debug.Log("Tiempo acabado");
             CambiarTemporizador(false);
             
             Desactivar.SetActive(false); // El objeto se deshabilita
@@ -51,6 +52,7 @@ public class ControladorJuego : MonoBehaviour
             Desactivar3.SetActive(false);
             Desactivar4.SetActive(false);
             Desactivar5.SetActive(false);
+            Desactivar6.SetActive(false);
             Activar.SetActive(true); // El objeto se habilita
             
         }
