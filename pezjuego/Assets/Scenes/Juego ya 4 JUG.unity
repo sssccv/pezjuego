@@ -1234,7 +1234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 985bb55eda30b1841b15bff8718e4b7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoMaximo: 5
+  tiempoMaximo: 7
   slider: {fileID: 558266556}
   Desactivar: {fileID: 1583163806}
   Desactivar2: {fileID: 578216789}
