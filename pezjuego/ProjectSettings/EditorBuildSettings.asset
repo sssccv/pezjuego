@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuInicial.unity
     guid: 8ac86f60f1f5c9745b3df0c3f7093f08
   - enabled: 1
-    path: Assets/Scenes/Juego ya.unity
+    path: Assets/Scenes/Juego ya 2 JUG.unity
     guid: 3283ec236e08c2d43b982b21b70bfe6e
   - enabled: 1
     path: Assets/Scenes/Controles.unity
@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Opciones.unity
     guid: 8db11f6478d6099468a0344db806dc5e
+  - enabled: 1
+    path: Assets/Scenes/Juego ya 4 JUG.unity
+    guid: 9767872be25478c4bbb03ca7bb3ff577
   m_configObjects: {}
