@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Juego ya 4 JUG.unity
     guid: 9767872be25478c4bbb03ca7bb3ff577
+  - enabled: 1
+    path: Assets/Scenes/Modo.unity
+    guid: d917f85b639caaa4281b14bf4bddeced
   m_configObjects: {}

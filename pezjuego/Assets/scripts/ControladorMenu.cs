@@ -27,6 +27,14 @@ public class ControladorMenu : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+    public void cuatrojugadores()
+    {
+        SceneManager.LoadScene(5);
+    }
+    public void mododejuego()
+    {
+        SceneManager.LoadScene(6);
+    }
     public void Quit()
     {
         Application.Quit();

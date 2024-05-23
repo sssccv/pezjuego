@@ -12,24 +12,28 @@ public class BarraDeVida : MonoBehaviour
     public float modvida;
     void Update()
     {
-        barradevida.fillAmount = vidaactual/vidamaxima;
+        barradevida.fillAmount = vidaactual / vidamaxima;
         if (Input.GetKeyDown(KeyCode.A))
         {
-            vidaactual = vidaactual+modvida;
+            vidaactual = vidaactual + modvida;
         }
         if (Input.GetKeyDown(KeyCode.L))
         {
             vidaactual = vidaactual - modvida;
         }
-        if(vidaactual>=vidamaxima)
+        if (vidaactual >= vidamaxima)
         {
             vidaactual = vidamaxima;
         }
         if (vidaactual <= 0)
         {
             vidaactual = 0;
-            Debug.Log("Derrota");
+            Debug.Log("el pescao anda ganando");
+
         }
+
+        
     }
+
     
 }
