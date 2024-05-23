@@ -16,7 +16,7 @@ PlayerSettings:
   productName: FishVSFisherman
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.026628638, g: 0.654285, b: 0.8301887, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0.58431375, g: 0.8117648, b: 0.7803922, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 0.776

@@ -13,7 +13,7 @@ public class BarraDeVida : MonoBehaviour
     void Update()
     {
         barradevida.fillAmount = vidaactual/vidamaxima;
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.A))
         {
             vidaactual = vidaactual+modvida;
         }

@@ -54,7 +54,8 @@ public class ControladorJuego : MonoBehaviour
             Desactivar5.SetActive(false);
             Desactivar6.SetActive(false);
             Activar.SetActive(true); // El objeto se habilita
-            
+            SceneManager.LoadScene(0);
+
         }
     }
 
