@@ -15,7 +15,9 @@ public class ControladorJuego : MonoBehaviour
     public GameObject Desactivar5;
     public GameObject Desactivar6;
     public GameObject Activar;
-    
+    public GameObject Activarpescador;
+
+    public BarraDeVida barraDeVida;
 
     private float tiempoActual;
 
@@ -53,9 +55,17 @@ public class ControladorJuego : MonoBehaviour
             Desactivar4.SetActive(false);
             Desactivar5.SetActive(false);
             Desactivar6.SetActive(false);
-            Activar.SetActive(true); // El objeto se habilita
-            
+             // El objeto se habilita
 
+            if (barraDeVida != null && barraDeVida.vidaactual < 50)
+            {
+                Activar.SetActive(true); // El objeto se habilita
+            }
+
+            if (barraDeVida != null && barraDeVida.vidaactual > 50)
+            {
+                Activarpescador.SetActive(true); // El objeto se habilita
+            }
         }
     }
 
