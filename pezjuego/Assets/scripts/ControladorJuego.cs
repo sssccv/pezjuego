@@ -14,6 +14,7 @@ public class ControladorJuego : MonoBehaviour
     public GameObject Desactivar4;
     public GameObject Desactivar5;
     public GameObject Desactivar6;
+    public GameObject Desactivar7;
     public GameObject Activar;
     public GameObject Activarpescador;
 
@@ -55,7 +56,8 @@ public class ControladorJuego : MonoBehaviour
             Desactivar4.SetActive(false);
             Desactivar5.SetActive(false);
             Desactivar6.SetActive(false);
-             // El objeto se habilita
+            Desactivar7.SetActive(false);
+            // El objeto se habilita
 
             if (barraDeVida != null && barraDeVida.vidaactual < 50)
             {
