@@ -25,14 +25,23 @@ public class BarraDeVida : MonoBehaviour
         {
             vidaactual = vidamaxima;
         }
-        if (vidaactual <= 0)
+        if (vidaactual <= 49.99)
         {
-            vidaactual = 0;
+            Debug.Log("el pescador anda ganando");
+
+        }
+
+        if (vidaactual >= 50.1)
+        {
+
             Debug.Log("el pescao anda ganando");
 
         }
 
-        
+        if (vidaactual <= 0)
+        {
+            vidaactual = 0;
+        }
     }
 
     
