@@ -14,9 +14,8 @@ public class ControladorJuego : MonoBehaviour
     public GameObject Desactivar4;
     public GameObject Desactivar5;
     public GameObject Desactivar6;
-    public GameObject Desactivar7;
-    public GameObject Activar;
-    public GameObject Activarpescador;
+    
+    
 
     public BarraDeVida barraDeVida;
 
@@ -56,17 +55,19 @@ public class ControladorJuego : MonoBehaviour
             Desactivar4.SetActive(false);
             Desactivar5.SetActive(false);
             Desactivar6.SetActive(false);
-            Desactivar7.SetActive(false);
+            
             // El objeto se habilita
 
             if (barraDeVida != null && barraDeVida.vidaactual < 50)
             {
-                Activar.SetActive(true); // El objeto se habilita
+                
+                SceneManager.LoadScene(9);
             }
 
             if (barraDeVida != null && barraDeVida.vidaactual > 50)
             {
-                Activarpescador.SetActive(true); // El objeto se habilita
+                
+                SceneManager.LoadScene(8);
             }
         }
     }

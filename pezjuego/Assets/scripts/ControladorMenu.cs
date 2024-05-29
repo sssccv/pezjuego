@@ -35,6 +35,11 @@ public class ControladorMenu : MonoBehaviour
     {
         SceneManager.LoadScene(6);
     }
+
+    public void ComoJugar()
+    {
+        SceneManager.LoadScene(7);
+    }
     public void Quit()
     {
         Application.Quit();
