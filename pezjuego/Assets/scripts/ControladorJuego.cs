@@ -14,8 +14,14 @@ public class ControladorJuego : MonoBehaviour
     public GameObject Desactivar4;
     public GameObject Desactivar5;
     public GameObject Desactivar6;
+<<<<<<< HEAD
     public GameObject transicion;
 
+=======
+    public GameObject Desactivar7;
+    public GameObject Activar;
+    public GameObject Activarpescador;
+>>>>>>> parent of b84debd (cambios semifinales)
 
     public BarraDeVida barraDeVida;
 
@@ -56,20 +62,22 @@ public class ControladorJuego : MonoBehaviour
             Desactivar4.SetActive(false);
             Desactivar5.SetActive(false);
             Desactivar6.SetActive(false);
+<<<<<<< HEAD
             
             
+=======
+            Desactivar7.SetActive(false);
+>>>>>>> parent of b84debd (cambios semifinales)
             // El objeto se habilita
 
             if (barraDeVida != null && barraDeVida.vidaactual < 50)
             {
-                
-                SceneManager.LoadScene(9);
+                Activar.SetActive(true); // El objeto se habilita
             }
 
             if (barraDeVida != null && barraDeVida.vidaactual > 50)
             {
-                
-                SceneManager.LoadScene(8);
+                Activarpescador.SetActive(true); // El objeto se habilita
             }
         }
     }

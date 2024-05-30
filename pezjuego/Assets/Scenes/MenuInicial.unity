@@ -376,8 +376,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 9, y: -64}
   m_SizeDelta: {x: 326.9208, y: 62.7171}
+=======
+  m_AnchoredPosition: {x: 40, y: 17}
+  m_SizeDelta: {x: 379.6432, y: 72.8315}
+>>>>>>> parent of b84debd (cambios semifinales)
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &461834189
 MonoBehaviour:
@@ -786,8 +791,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 18.472473, y: -416.2008}
   m_SizeDelta: {x: 326.9208, y: 62.7171}
+=======
+  m_AnchoredPosition: {x: 51, y: -392}
+  m_SizeDelta: {x: 379.6432, y: 72.8315}
+>>>>>>> parent of b84debd (cambios semifinales)
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &909292363
 MonoBehaviour:
@@ -1226,8 +1236,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -7, y: 257}
   m_SizeDelta: {x: 538.85, y: 145.9909}
+=======
+  m_AnchoredPosition: {x: 75, y: 425}
+  m_SizeDelta: {x: 405.7456, y: 100}
+>>>>>>> parent of b84debd (cambios semifinales)
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1402556604
 MonoBehaviour:
@@ -1320,8 +1335,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 3943029575682201324, guid: f5d028154a180b5498207aa1c65cd889, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5d028154a180b5498207aa1c65cd889, type: 3}
@@ -1665,8 +1679,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 10.72229, y: -234.50311}
   m_SizeDelta: {x: 326.9208, y: 62.7171}
+=======
+  m_AnchoredPosition: {x: 42, y: -181}
+  m_SizeDelta: {x: 379.6432, y: 72.8315}
+>>>>>>> parent of b84debd (cambios semifinales)
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647602724
 MonoBehaviour:

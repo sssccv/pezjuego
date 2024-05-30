@@ -27,14 +27,14 @@ public class BarraDeVida : MonoBehaviour
         }
         if (vidaactual <= 49.99)
         {
-            Debug.Log("el pescao anda ganando");
+            Debug.Log("el pescador anda ganando");
 
         }
 
         if (vidaactual >= 50.1)
         {
 
-            Debug.Log("el pescador anda ganando");
+            Debug.Log("el pescao anda ganando");
 
         }
 

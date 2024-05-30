@@ -1292,6 +1292,7 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 254842195}
   m_SourcePrefab: {fileID: 100100000, guid: 76b55aad6e7df364db5297c34df4c0bb, type: 3}
+<<<<<<< HEAD
 --- !u!1 &1410308236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,6 +1425,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410308236}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of b84debd (cambios semifinales)
 --- !u!1001 &1413580396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1919,7 +1922,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 461834188}
-  - {fileID: 1410308237}
   - {fileID: 1647602723}
   - {fileID: 909292362}
   m_Father: {fileID: 0}
