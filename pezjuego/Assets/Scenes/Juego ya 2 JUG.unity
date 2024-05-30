@@ -805,8 +805,6 @@ MonoBehaviour:
   Desactivar4: {fileID: 977131325}
   Desactivar5: {fileID: 682620288}
   Desactivar6: {fileID: 1315591847}
-  Activar: {fileID: 1568630173}
-  Activarpescador: {fileID: 0}
   barraDeVida: {fileID: 1908238079}
 --- !u!4 &531766614
 Transform:
@@ -1625,8 +1623,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 863.5087, y: 66.658}
+  m_AnchoredPosition: {x: 2, y: 0}
+  m_SizeDelta: {x: 857.6906, y: 66.658}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &729504135
 MonoBehaviour:
@@ -3025,8 +3023,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.726999, y: -0.18560028}
-  m_SizeDelta: {x: 842.5643, y: 51.1417}
+  m_AnchoredPosition: {x: 1.9699, y: -0.30239868}
+  m_SizeDelta: {x: 844.08, y: 53.9926}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1635814251
 GameObject:
