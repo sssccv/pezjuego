@@ -12,19 +12,19 @@ public class barravida4jug : MonoBehaviour
     void Update()
     {
         barradevida.fillAmount = vidaactual / vidamaxima;
-        if (Input.GetKeyDown(KeyCode.Joystick1Button18))
+        if (Input.GetKeyDown(KeyCode.A))
         {
             vidaactual = vidaactual + modvida;
         }
-        if (Input.GetKeyDown(KeyCode.Joystick1Button16))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             vidaactual = vidaactual + modvida;
         }
-        if (Input.GetKeyDown(KeyCode.Joystick1Button17))
+        if (Input.GetKeyDown(KeyCode.L))
         {
             vidaactual = vidaactual - modvida;
         }
-        if (Input.GetKeyDown(KeyCode.Joystick1Button19))
+        if (Input.GetKeyDown(KeyCode.J))
         {
             vidaactual = vidaactual - modvida;
         }
