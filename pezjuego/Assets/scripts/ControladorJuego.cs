@@ -15,6 +15,7 @@ public class ControladorJuego : MonoBehaviour
     public GameObject Desactivar5;
     public GameObject Desactivar6;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public GameObject transicion;
 
 =======
@@ -22,18 +23,21 @@ public class ControladorJuego : MonoBehaviour
     public GameObject Activar;
     public GameObject Activarpescador;
 >>>>>>> parent of b84debd (cambios semifinales)
+=======
+    
+    
+>>>>>>> parent of d72fee2 (ojala funcione)
 
     public BarraDeVida barraDeVida;
 
     private float tiempoActual;
 
     private bool tiempoActivado = false;
-    
+
 
     private void Start()
     {
         ActivarTemporizador();
-
     }
 
     private void Update()
@@ -64,10 +68,13 @@ public class ControladorJuego : MonoBehaviour
             Desactivar6.SetActive(false);
 <<<<<<< HEAD
             
+<<<<<<< HEAD
             
 =======
             Desactivar7.SetActive(false);
 >>>>>>> parent of b84debd (cambios semifinales)
+=======
+>>>>>>> parent of d72fee2 (ojala funcione)
             // El objeto se habilita
 
             if (barraDeVida != null && barraDeVida.vidaactual < 50)

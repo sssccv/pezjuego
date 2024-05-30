@@ -4,5 +4,36 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Scenes: []
+=======
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuInicial.unity
+    guid: 8ac86f60f1f5c9745b3df0c3f7093f08
+  - enabled: 1
+    path: Assets/Scenes/Juego ya 2 JUG.unity
+    guid: 3283ec236e08c2d43b982b21b70bfe6e
+  - enabled: 1
+    path: Assets/Scenes/Controles.unity
+    guid: 352da47455ce1de4cb12039c4982a4ba
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: ac679295e6edd5a4aac8d8ca3ec9cd59
+  - enabled: 1
+    path: Assets/Scenes/Opciones.unity
+    guid: 1a169f465bcd34d478f6a9924bdf17dc
+  - enabled: 1
+    path: Assets/Scenes/Juego ya 4 JUG.unity
+    guid: 9767872be25478c4bbb03ca7bb3ff577
+  - enabled: 1
+    path: Assets/Scenes/Modo.unity
+    guid: d917f85b639caaa4281b14bf4bddeced
+  - enabled: 1
+    path: Assets/Scenes/ComoJugar.unity
+    guid: de40017c1139a4848b52be08d1b1a3f4
+  - enabled: 1
+    path: Assets/Scenes/fishermanWin.unity
+    guid: 189b47d9a2ecd274c97622281b7f83ec
+>>>>>>> parent of d72fee2 (ojala funcione)
   m_configObjects: {}
