@@ -14,19 +14,20 @@ public class ControladorJuego : MonoBehaviour
     public GameObject Desactivar4;
     public GameObject Desactivar5;
     public GameObject Desactivar6;
-    
-    
+    public GameObject transicion;
+
 
     public BarraDeVida barraDeVida;
 
     private float tiempoActual;
 
     private bool tiempoActivado = false;
-
+    
 
     private void Start()
     {
         ActivarTemporizador();
+
     }
 
     private void Update()
@@ -55,6 +56,7 @@ public class ControladorJuego : MonoBehaviour
             Desactivar4.SetActive(false);
             Desactivar5.SetActive(false);
             Desactivar6.SetActive(false);
+            
             
             // El objeto se habilita
 

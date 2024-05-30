@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/fishermanWin.unity
     guid: 189b47d9a2ecd274c97622281b7f83ec
+  - enabled: 1
+    path: Assets/Scenes/fishWin.unity
+    guid: 3e1bad4c12ac9bf4687ee4a407467fc9
   m_configObjects: {}
