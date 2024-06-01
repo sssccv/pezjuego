@@ -4,9 +4,6 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< HEAD
-  m_Scenes: []
-=======
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MenuInicial.unity
@@ -35,5 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/fishermanWin.unity
     guid: 189b47d9a2ecd274c97622281b7f83ec
->>>>>>> parent of d72fee2 (ojala funcione)
+  - enabled: 1
+    path: Assets/Scenes/fishWin.unity
+    guid: 3e1bad4c12ac9bf4687ee4a407467fc9
   m_configObjects: {}

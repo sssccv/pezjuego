@@ -13,11 +13,11 @@ public class BarraDeVida : MonoBehaviour
     void Update()
     {
         barradevida.fillAmount = vidaactual / vidamaxima;
-        if (Input.GetKeyDown(KeyCode.Joystick1Button18))
+        if (Input.GetKeyDown(KeyCode.A))
         {
             vidaactual = vidaactual + modvida;
         }
-        if (Input.GetKeyDown(KeyCode.Joystick1Button17))
+        if (Input.GetKeyDown(KeyCode.L))
         {
             vidaactual = vidaactual - modvida;
         }
@@ -27,14 +27,14 @@ public class BarraDeVida : MonoBehaviour
         }
         if (vidaactual <= 49.99)
         {
-            Debug.Log("el pescador anda ganando");
+            Debug.Log("el pescao anda ganando");
 
         }
 
         if (vidaactual >= 50.1)
         {
 
-            Debug.Log("el pescao anda ganando");
+            Debug.Log("el pescador anda ganando");
 
         }
 

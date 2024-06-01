@@ -61,13 +61,18 @@ public class Controlador4J : MonoBehaviour
             if (barravida4Jug != null && barravida4Jug.vidaactual < 50)
             {
 
-                SceneManager.LoadScene(9);
+                SceneManager.LoadScene(8);
             }
 
             if (barravida4Jug != null && barravida4Jug.vidaactual > 50)
             {
 
-                SceneManager.LoadScene(8);
+                SceneManager.LoadScene(9);
+            }
+            if (barravida4Jug != null && barravida4Jug.vidaactual == 50)
+            {
+
+                SceneManager.LoadScene(5);
             }
         }
     }
